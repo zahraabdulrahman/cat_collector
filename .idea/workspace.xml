@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b974ba27-6d3b-439a-b9d5-ceed6444945a" name="Default Changelist" comment="" />
+    <list default="true" id="b974ba27-6d3b-439a-b9d5-ceed6444945a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cat-env/cat_collector/cat_collector/static/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cat-env/cat_collector/catapp/templates/homepage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cat-env/cat_collector/catapp/templates/review.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cat-env/cat_collector/catapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/cat-env/cat_collector/catapp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cat-env/cat_collector/catapp/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/cat-env/cat_collector/cat_collector/static/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cat-env/cat_collector/catapp/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/cat-env/cat_collector/catapp/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cat-env/cat_collector/catapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/cat-env/cat_collector/catapp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cat-env/cat_collector/catapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/cat-env/cat_collector/catapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cat-env/cat_collector/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/cat-env/cat_collector/db.sqlite3" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,17 +24,86 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cat-env/cat_collector/catapp/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+            <state relative-caret-position="153">
+              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cat-env/cat_collector/catapp/templates/homepage.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="66" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cat-env/cat_collector/catapp/templates/review.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cat-env/cat_collector/catapp/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="44" lean-forward="true" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cat-env/cat_collector/catapp/static/css/styles.css">
+        <entry file="file://$PROJECT_DIR$/cat-env/cat_collector/cat_collector/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+            <state relative-caret-position="310">
+              <caret line="116" column="37" selection-start-line="116" selection-start-column="37" selection-end-line="116" selection-end-column="37" />
+              <folding>
+                <element signature="e#314#323#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cat-env/cat_collector/catapp/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cat-env/cat_collector/catapp/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cat-env/cat_collector/cat_collector/static/css/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -44,18 +124,22 @@
         <option value="$PROJECT_DIR$/cat-env/templates/base.html" />
         <option value="$PROJECT_DIR$/cat-env/cat_collector/cat_app/views.py" />
         <option value="$PROJECT_DIR$/cat-env/cat_collector/cat_collector/urls.py" />
-        <option value="$PROJECT_DIR$/cat-env/cat_collector/catapp/urls.py" />
         <option value="$PROJECT_DIR$/cat-env/cat_collector/cat_collector/settings.py" />
-        <option value="$PROJECT_DIR$/cat-env/cat_collector/catapp/views.py" />
         <option value="$PROJECT_DIR$/cat-env/cat_collector/cat_collector/static/css/styles.css" />
+        <option value="$PROJECT_DIR$/cat-env/cat_collector/catapp/urls.py" />
+        <option value="$PROJECT_DIR$/cat-env/cat_collector/catapp/views.py" />
+        <option value="$PROJECT_DIR$/cat-env/cat_collector/catapp/templates/homepage.html" />
         <option value="$PROJECT_DIR$/cat-env/cat_collector/catapp/templates/base.html" />
         <option value="$PROJECT_DIR$/cat-env/cat_collector/catapp/static/css/styles.css" />
+        <option value="$PROJECT_DIR$/cat-env/cat_collector/catapp/templates/review.html" />
+        <option value="$PROJECT_DIR$/cat-env/cat_collector/catapp/models.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
+    <option name="x" value="961" />
+    <option name="y" value="13" />
+    <option name="width" value="1315" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -64,7 +148,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -99,25 +182,48 @@
             </path>
             <path>
               <item name="cat_collector" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cat_collector" type="462c0819:PsiDirectoryNode" />
-              <item name="cat-env" type="462c0819:PsiDirectoryNode" />
-              <item name="cat_collector" type="462c0819:PsiDirectoryNode" />
-              <item name="catapp" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
               <item name="cat_collector" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.1 (cat_collector) &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="cat_collector" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.1 (cat_collector) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="cat-env" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cat_collector" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.1 (cat_collector) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="cat-env" type="462c0819:PsiDirectoryNode" />
               <item name="cat_collector" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cat_collector" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.1 (cat_collector) &gt;" type="70bed36:NamedLibraryElementNode" />
               <item name="cat-env" type="462c0819:PsiDirectoryNode" />
               <item name="cat_collector" type="462c0819:PsiDirectoryNode" />
               <item name="catapp" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cat_collector" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.1 (cat_collector) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="cat-env" type="462c0819:PsiDirectoryNode" />
+              <item name="cat_collector" type="462c0819:PsiDirectoryNode" />
+              <item name="catapp" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -126,9 +232,10 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\User\cat_collector\cat-env\cat_collector\catapp" />
-      <recent name="C:\Users\User\cat_collector\cat-env\cat_collector" />
       <recent name="C:\Users\User\cat_collector\cat-env\cat_collector\cat_collector" />
+      <recent name="C:\Users\User\cat_collector\cat-env\cat_collector\catapp" />
+      <recent name="C:\Users\User\cat_collector\cat-env\cat_collector\catapp\static\images" />
+      <recent name="C:\Users\User\cat_collector\cat-env\cat_collector" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -165,9 +272,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="961" y="13" width="1315" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20299146" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14878622" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -177,14 +285,54 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32932165" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32932165" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32932165" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32932165" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Changes in CSS" />
@@ -195,10 +343,17 @@
     <entry file="file://$PROJECT_DIR$/cat-env/cat_collector/cat_app/models.py" />
     <entry file="file://$PROJECT_DIR$/cat-env/cat_collector/cat_app/urls.py" />
     <entry file="file://$PROJECT_DIR$/cat-env/cat_collector/cat_app/views.py" />
+    <entry file="file://$PROJECT_DIR$/cat-env/cat_collector/cat_collector/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cat-env/cat_collector/catapp/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
@@ -207,42 +362,62 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cat-env/cat_collector/catapp/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+        <state relative-caret-position="187">
+          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cat-env/cat_collector/cat_collector/urls.py">
+    <entry file="file://$PROJECT_DIR$/cat-env/cat_collector/catapp/templates/homepage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="66" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cat-env/cat_collector/cat_collector/settings.py">
+    <entry file="file://$PROJECT_DIR$/cat-env/cat_collector/cat_collector/static/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
-          <folding>
-            <element signature="e#314#323#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="119">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cat-env/cat_collector/catapp/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        <state relative-caret-position="153">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cat-env/cat_collector/catapp/static/css/styles.css">
+    <entry file="file://$PROJECT_DIR$/cat-env/cat_collector/catapp/templates/review.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        <state relative-caret-position="255">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cat-env/cat_collector/catapp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="44" lean-forward="true" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cat-env/cat_collector/cat_collector/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="116" column="37" selection-start-line="116" selection-start-column="37" selection-end-line="116" selection-end-column="37" />
+          <folding>
+            <element signature="e#314#323#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,18 +1,19 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang = "en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, inital-scale=1.0">
         <title> Cat Collector </title>
-        <link rel="stylesheet" type="text/css" href="static\css\styles.css">
+        <link rel="stylesheet" type="text/css" href="{% static 'css\styles.css' %}">
         </head>
         <body>
             <header>
-                A game where you collect cats !
+                <img src="{% static 'images/logo.png' %}" height="160" width="160">
             </header>
             <main>
-                <h1>Cat collector</h1>
-                <h2>Is a game where you collect cats</h2>
+                {% block content %}
+                {% endblock content %}
             </main>
             <footer>
             </footer>
