@@ -6,3 +6,8 @@ class Cat(models.Model):
     image = models.ImageField(upload_to='cats/')
     rarity = models.CharField(max_length=20)
     description = models.TextField()
+
+class RarityProbability(models.Model):
+    rarity = models.CharField(max_length=20, unique=True)
+    probability = models.FloatField()
+
