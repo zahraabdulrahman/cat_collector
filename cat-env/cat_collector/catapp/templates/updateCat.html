@@ -1,0 +1,26 @@
+{% extends "layouts/base.html" %}
+
+{% block stylesheets %}
+{% endblock stylesheets %}
+
+{% block title %}Updating Cat{% endblock %}
+
+{% block content %}
+<h3>Updating cat</h3>
+<form method="post">
+    {% csrf_token %}
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" value="{{ obj.name }}" />
+    <br>
+    <label for="image">Image</label>
+    <input type="file" id="image" name="image" accept="image/*" />
+    <br>
+    <label for="rarity">Rarity</label>
+    <input type="text" id="rarity" name="rarity" value="{{ obj.rarity }}" />
+    <br>
+    <label for="description">Description</label>
+    <textarea id="description" name="description">{{ obj.description }}</textarea>
+    <br>
+    <button type="submit">Update</button>
+</form>
+{% endblock content %}

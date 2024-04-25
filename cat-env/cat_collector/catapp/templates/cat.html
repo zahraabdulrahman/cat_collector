@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block stylesheets %}
+{% endblock stylesheets %}
+
+{% block title %}Cat Info{% endblock %}
+
+{% block content %}
+<h3>Cat details</h3>
+<h4>Name</h4>
+<p>{{ cat.name }}</p>
+<h4>Image</h4>
+<img src="{{ cat.image.url }}" alt="Cat Image">
+<h4>Rarity</h4>
+<p>{{ cat.rarity }}</p>
+<h4>Description</h4>
+<p>{{ cat.description }}</p>
+{% endblock content %}
