@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b974ba27-6d3b-439a-b9d5-ceed6444945a" name="Default Changelist" comment="Added cat's model data, added another model, and implemented the game's logic">
-      <change afterPath="$PROJECT_DIR$/cat-env/cat_collector/catapp/templates/addCat.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cat-env/cat_collector/catapp/templates/cat.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cat-env/cat_collector/catapp/templates/updateCat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cat-env/cat_collector/catapp/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cat-env/cat_collector/catapp/templates/catList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/cat_collector.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cat_collector.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cat-env/cat_collector/catapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/cat-env/cat_collector/catapp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cat-env/cat_collector/catapp/templates/addCat.html" beforeDir="false" afterPath="$PROJECT_DIR$/cat-env/cat_collector/catapp/templates/addCat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cat-env/cat_collector/catapp/templates/cat.html" beforeDir="false" afterPath="$PROJECT_DIR$/cat-env/cat_collector/catapp/templates/cat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cat-env/cat_collector/catapp/templates/updateCat.html" beforeDir="false" afterPath="$PROJECT_DIR$/cat-env/cat_collector/catapp/templates/updateCat.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cat-env/cat_collector/catapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/cat-env/cat_collector/catapp/views.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -132,11 +137,15 @@
       </list>
     </option>
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
   <component name="ProjectFrameBounds">
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
+  <component name="ProjectId" id="2fvHN0b0i9DUcaG8zpMyhcNtHSk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -244,12 +253,20 @@
       </pane>
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cat-env/cat_collector/static/images" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/alzah/AppData/Local/Programs/Python/Python312/python.exe",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\User\cat_collector\cat-env\cat_collector\static\images" />
@@ -262,18 +279,14 @@
       <recent name="C:\Users\User\cat_collector\cat-env\cat_collector\catapp\static\images" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-5a2391486177-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.13763.11" />
+      </set>
+    </attachedChunks>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -361,30 +374,6 @@
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
     <option name="RECENT_FILTERS">
       <map>
         <entry key="Branch">
@@ -395,6 +384,15 @@
         <entry key="User">
           <value>
             <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
           </value>
         </entry>
       </map>

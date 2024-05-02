@@ -2,6 +2,7 @@ from django.shortcuts import render, redirect
 from django.http import HttpResponse
 from django.template import loader
 from .models import Cat
+from .forms import CatForm
 # Create your views here.
 
 def catapp(request):
@@ -15,29 +16,23 @@ def review(request):
 
 def addCat(request):
     if request.method == 'POST':
-        nameval = request.POST.get('name')
-        imageval = request.FILES.get('image')
-        rarityval = request.POST.get('rarity')
-        descriptionval = request.POST.get('description')
-        obj = Cat(name=nameval, image=imageval, rarity=rarityval, description=descriptionval)
-        obj.save()
-        return redirect('cat', cId=obj.id)
-    return render(request, "addCat.html", {})
+        form = CatForm(request.POST)
+
+        if form.is_valid():
+            obj = form.save()
+            return redirect('cat', cId=obj.id)
+    form = CatForm(None)
+    return render(request, "addCat.html", {'form':form})
 
 def updateCat(request, cId):
     obj = Cat.objects.get(id=cId)
     if request.method == 'POST':
-        nameval = request.POST.get('name')
-        imageval = request.FILES.get('image')
-        rarityval = request.POST.get('rarity')
-        descriptionval = request.POST.get('description')
-        obj.name = nameval
-        obj.image = imageval
-        obj.rarity = rarityval
-        obj.description = descriptionval
-        obj.save()
-        return redirect('cat', cId=obj.id)
-    return render(request, "updateCat.html", {'obj': obj})
+       form = CatForm(request.POST, instance=obj)
+       if form.is_valied():
+            obj.save()
+            return redirect('cat', cId=obj.id)
+    form = CatForm(instance=obj)
+    return render(request, "updateCat.html", {'form': form})
 
 
 def filterCats(request):
