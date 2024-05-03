@@ -1,0 +1,16 @@
+{% extends "layouts/base.html" %}
+
+{% block stylesheets %}
+{% endblock stylesheets %}
+
+{% block title %}Updating Cat{% endblock %}
+
+{% block content %}
+<h3>Updating cat</h3>
+<form method="post">
+    {% csrf_token %}
+    {{form}}
+    <br>
+    <button type="submit">Update</button>
+</form>
+{% endblock content %}

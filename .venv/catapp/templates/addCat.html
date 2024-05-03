@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block stylesheets %}
+{% endblock stylesheets %}
+
+{% block title %}Adding a Cat{% endblock %}
+
+{% block content %}
+<h3>Adding a cat</h3>
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{form}}
+    <br>
+    <button type="submit">Add</button>
+</form>
+{% endblock content %}

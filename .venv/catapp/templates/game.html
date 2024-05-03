@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+<div style="margin-left: auto; margin-right: auto;">
+    <h2 style="color: orange;">Welcome to the cat collector game !</h2>
+    <center><p>You have 3 tries to get the rarest ones. Best of luck!</p>
+
+    <img id = "firstCat" src="{% static 'images/unknown_cat.png' %}" width = "150" height = "150">
+    <img id = "secondCat"  src="{% static 'images/unknown_cat.png' %}" width = "150" height = "150">
+    <img id = "thirdCat" src="{% static 'images/unknown_cat.png' %}" width = "150" height = "150">
+    <br>
+        <button id="playBtn">Play</button>
+    </center>
+</div>
+{% endblock content %}
+
+{% block javascripts %}
+<script>
+
+    var contentContainer = document.getElementById("firstCat");
+    var button = document.getElementById("playBtn");
+
+     // Add a click event listener to the button
+     button.addEventListener("click", function() {
+     // Update the content of the container element
+        contentContainer.src = "{% static 'images/brown_cat.png' %}";
+        console.log("success");
+     });
+</script>
+{% endblock javascripts %}
