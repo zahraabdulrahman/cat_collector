@@ -4,11 +4,17 @@
 <div style="display: flex; justify-content: center;">
     <div style="width: 200px;">
         <div style="text-align: center;">
-            <button style="display: block; margin: 0 auto;" onclick="location.href='{% url 'game' %}'">Start</button>
+            <button style="margin: 0 auto; background-color: #8B4513; color: orange; width: 150px; height: 40px;" onclick="location.href='{% url 'game' %}'">Start</button>
         </div>
         <br>
         <div style="text-align: center;">
-            <button style="display: block; margin: 0 auto;" onclick="location.href='{% url 'review' %}'">Review game</button>
+            <button style="margin: 0 auto; background-color: #8B4513; color: white; width: 150px; height: 40px;" onclick="location.href='{% url 'addCat' %}'">Add a cat</button>
+        </div>
+        <div style="text-align: center;">
+            <button style="margin: 0 auto; background-color: #8B4513; color: white; width: 150px; height: 40px;" onclick="location.href='{% url 'filterCats' %}'">Filter cats</button>
+        </div>
+        <div style="text-align: center;">
+            <button style="margin: 0 auto; background-color: #8B4513; color: white; width: 150px; height: 40px;" onclick="location.href='{% url 'review' %}'">Review game</button>
         </div>
     </div>
 </div>

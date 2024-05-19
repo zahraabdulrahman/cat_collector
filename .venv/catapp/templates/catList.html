@@ -1,19 +1,28 @@
 {% extends "base.html" %}
 
 {% block content %}
-<h1>Cat List</h1>
-<table border="1">
-    <tr>
-        <th>Name</th>
-        <th>Rarity</th>
-        <th>Description</th>
-    </tr>
-    {% for cat in cats %}
+<h1 style="text-align: center;">Cat List</h1>
+
+<div style="text-align: center;">
+    <table border="1" style="margin: auto;">
         <tr>
-            <td><a href="{% url 'cat' catId=cat.id %}">{{ cat.name }}</a></td>
-            <td>{{ cat.rarity }}</td>
-            <td>{{ cat.description }}</td>
+            <th>Name</th>
+            <th>Rarity</th>
+            <th>Description</th>
+            <th>Picture</th>
         </tr>
-    {% endfor %}
-</table>
+        {% for cat in cats %}
+            <tr>
+                <td>{{ cat.name }}</td>
+                <td>{{ cat.rarity }}</td>
+                <td>{{ cat.description }}</td>
+                <td><img src="{{ cat.image.url }}" width="100"></td> <!-- Display image using img tag -->
+            </tr>
+        {% endfor %}
+    </table>
+</div>
+
+        <div style="text-align: center;">
+            <button style="display: block; margin: 0 auto; background-color: #8B4513; color: white; width: 150px; height: 40px;" onclick="location.href='{% url 'filterCats' %}'">Filter</button>
+        </div>
 {% endblock content %}

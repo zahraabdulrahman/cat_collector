@@ -4,14 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b974ba27-6d3b-439a-b9d5-ceed6444945a" name="Default Changelist" comment="implemented half of the games logic">
+    <list default="true" id="b974ba27-6d3b-439a-b9d5-ceed6444945a" name="Default Changelist" comment="final update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/catapp/get_cat.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/catapp/get_cat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/catapp/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/catapp/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/catapp/templates/addCat.html" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/catapp/templates/addCat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/catapp/templates/catList.html" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/catapp/templates/catList.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.venv/catapp/templates/game.html" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/catapp/templates/game.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.venv/catapp/templates/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/catapp/templates/homepage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/catapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/catapp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/catapp/templates/review.html" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/catapp/templates/review.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/catapp/templates/updateCat.html" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/catapp/templates/updateCat.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.venv/catapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/catapp/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/static/images/white_cat.png" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/static/images/white.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -262,16 +264,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/alzah/cat_collector",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/alzah/cat_collector&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\alzah\cat_collector\.venv\static\images" />
@@ -341,7 +343,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714696651644</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="final update">
+      <option name="closed" value="true" />
+      <created>1716084328168</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1716084328169</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView">
@@ -426,7 +436,8 @@
     <MESSAGE value="Added cat's model data, added another model, and implemented the game's logic" />
     <MESSAGE value="Added forms, changes in html files" />
     <MESSAGE value="implemented half of the games logic" />
-    <option name="LAST_COMMIT_MESSAGE" value="implemented half of the games logic" />
+    <MESSAGE value="final update" />
+    <option name="LAST_COMMIT_MESSAGE" value="final update" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/cat-env/cat_collector/cat_app/forms.py" />

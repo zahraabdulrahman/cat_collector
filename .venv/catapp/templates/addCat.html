@@ -6,11 +6,13 @@
 {% block title %}Adding a Cat{% endblock %}
 
 {% block content %}
-<h3>Adding a cat</h3>
-<form method="post" enctype="multipart/form-data">
-    {% csrf_token %}
-    {{form}}
-    <br>
-    <button type="submit">Add</button>
-</form>
+<div style="text-align: center;">
+    <h3>Adding a cat</h3>
+    <form method="post" enctype="multipart/form-data" style="display: inline-block;">
+        {% csrf_token %}
+        {{ form }}
+        <br>
+        <button type="submit" style="background-color: #8B4513; color: white; width: 150px; height: 40px;">Add</button>
+    </form>
+</div>
 {% endblock content %}

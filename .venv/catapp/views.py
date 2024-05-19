@@ -66,29 +66,20 @@ def updateCat(request, cId):
 
 def filterCats(request):
     if request.method == "POST":
-        string = request.POST.get('keyword').lower()
-        isName = request.POST.get('option1')
-        isRarity = request.POST.get('option2')
+        selected_rarity = request.POST.get('rarity')
 
-        selected = request.POST.get('selectedRarity')
+        # Filter cats based on selected rarity
+        if selected_rarity:
+            myCats = Cat.objects.filter(rarity=selected_rarity)
+        else:
+            myCats = Cat.objects.all()
 
-        myCats = Cat.objects.filter(name__icontains='or')
-        myCats2 = myCats.filter(rarity__lte=100).exclude(description__icontains='Saad')
+        # Convert queryset to a list of dictionaries for rendering
+        newCats = [{'name': cat.name, 'rarity': cat.rarity, 'description': cat.description, 'image': cat.image} for cat in myCats]
 
-        print(f"selected rarity = {selected}")
-        # now filter
-        cats = __getCats()
-        newCats = []
-        for item in cats:
-            contained = False
-            if isName and string in item['name'].lower():
-                contained = True
-            if not contained and isRarity and string in item['rarity'].lower():
-                contained = True
-            if contained:
-                newCats.append(item)
         return render(request, 'catList.html', {'cats': newCats})
     return render(request, 'search.html', {})
+
 
 
 

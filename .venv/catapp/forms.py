@@ -1,11 +1,13 @@
 from django import forms
 from .models import Cat
 
-
 class CatForm(forms.ModelForm):
-    class Meta:
-        model = Cat
-        fields = ['name', 'image', 'rarity', 'description']
+    RARITY_CHOICES = [
+        ('Common', 'Common'),
+        ('Uncommon', 'Uncommon'),
+        ('Rare', 'Rare'),
+        ('Legendary', 'Legendary'),
+    ]
 
     name = forms.CharField(
         max_length=100,
@@ -25,8 +27,8 @@ class CatForm(forms.ModelForm):
         label='Image'
     )
 
-    rarity = forms.CharField(
-        max_length=20,
+    rarity = forms.ChoiceField(
+        choices=RARITY_CHOICES,
         required=True,
         label='Rarity'
     )
@@ -43,3 +45,7 @@ class CatForm(forms.ModelForm):
             }
         )
     )
+
+    class Meta:
+        model = Cat
+        fields = ['name', 'image', 'rarity', 'description']
