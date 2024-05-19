@@ -3,6 +3,7 @@ from django.http import HttpResponse
 from django.template import loader
 from .models import Cat
 from .forms import CatForm
+from .get_cat import get_random_cat
 # Create your views here.
 
 def catapp(request):
@@ -17,6 +18,31 @@ def game(request):
     template = loader.get_template('game.html')
     return HttpResponse(template.render())
 
+def firstCat(request):
+    random_cat = get_random_cat()
+    # Pass the random cat to the template
+    context = {
+        'random_cat': random_cat,
+    }
+
+    template = loader.get_template('firstCat.html')
+    return HttpResponse(template.render(context, request))
+
+def secondCat(request):
+    random_cat = get_random_cat()
+    context = {
+        'random_cat': random_cat,
+    }
+    template = loader.get_template('secondCat.html')
+    return HttpResponse(template.render(context, request))
+
+def thirdCat(request):
+    random_cat = get_random_cat()
+    context = {
+        'random_cat': random_cat,
+    }
+    template = loader.get_template('thirdCat.html')
+    return HttpResponse(template.render(context, request))
 def addCat(request):
     if request.method == 'POST':
         form = CatForm(request.POST)

@@ -1,7 +1,6 @@
 import random
 from django.db import models
 from .models import Cat, RarityProbability
-
 def get_random_cat():
     # Get the total number of rarity probabilities
     total_probabilities = RarityProbability.objects.aggregate(total=models.Sum('probability'))['total']
